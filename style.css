@@ -1,0 +1,144 @@
+*,
+*::before,
+*::after{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+	margin:0;
+	font-family: 'Roboto Condensed', sans-serif;
+	background: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Overlock', cursive;
+}
+.banner {
+    background: url(images/bg-image.jpg) no-repeat center 0px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    position: relative;
+}
+.header-left{
+    padding: 5%;
+    width: 40%;
+}
+
+.header-left img {
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.68);
+}
+
+.header-right{
+    width: 60%;
+    position: absolute;
+    top: 13%;
+    left: 40%;
+    color: #fff;
+}
+
+.header-right h6{
+    font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 6px;
+}
+.header-right p{
+    color: #ccc;
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.icons a{
+    margin-right: 20px;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.top-nav {
+    background: #6a72a2;
+    padding: 10px 0;
+}
+.nav > li {
+    display: inline-block;
+}
+ul.nav.navbar {
+    margin: 0;
+    text-align: center;
+}
+button.navbar-toggle{
+    display: none;
+}
+ul.nav.navbar li a {
+    color: #fff;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    font-family: 'Overlock', cursive;
+}
+
+.skills{
+	background:#000;
+}
+.bar-grids {
+    padding: 0 4em;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 2.2em;
+    background-color: #2F2C06;
+}
+.progress-bar { 
+    background-color: #766E04;
+}
+.bar-grids h6 {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 0.6em;
+}
+.bar-grids h6 span {
+    float: right;
+    font-size: 0.9em;
+}
+.about,.work,.education,.skills,.experience,.portfolio,.contact{
+	padding:3em 0;
+}
+h3.title {
+    font-size: 4em;
+    text-align: center;
+    color: #008B8B;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+    margin-bottom: 1em;
+}
+.bar-grids {
+    padding: 0 4em;
+    display: inline-block;
+    width: 13%;
+}
+.progress {
+    height: 10px;
+    margin-bottom: 2.2em;
+    background-color: #2F2C06;
+}
+.progress-bar { 
+    background-color: #766E04;
+}
+.bar-grids h6 {
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 0.6em;
+}
+.bar-grids h6 span {
+    float: right;
+    font-size: 0.9em;
+}
+
+
+.experience{
+    background-color: #ffffff;
+}
